@@ -1,0 +1,38 @@
+---
+layout: default
+title: Members
+permalink: members/
+---
+
+<h2>Jedi Masters</h2>
+<ul>
+{% for member in site.data.members.jedi-masters %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Jedies</h2>
+<ul>
+{% for member in site.data.members.jedies %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Padavans</h2>
+<ul>
+{% for member in site.data.members.padavans %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
