@@ -8,8 +8,15 @@ title: Knowledge Base
 
 Nowadays it's very easy to learn anything online. You just have to google the topic you want and there you go. You have access to thousands of resources. For example there are great courses on [codecademy](https://www.codecademy.com/) or similar websites. Use those resources, they are awesome!
 
+There are two pages which you will visit a lot (and you probably know them very well already):
 
-In this page we try to collect some resources which can help you to get into various topics. These can be tutorials, youtube chanels or any other websites.
+ - [w3schools](https://www.w3schools.com/)
+ - [MDN web docs](https://developer.mozilla.org/en-US/)
+
+The relevant parts of these websites will be included at the end of every subsections.
+
+
+In this page we try to collect some resources which are not the ones mentioned above and can help you to get into various topics. These can be tutorials, youtube chanels or any other websites.
 
 
 ## The Basics of HTML & CSS
@@ -26,6 +33,14 @@ By finishing this part, you should be able to answer at least the following ques
  - How can you create a 3 row layout, where there are 3 columns in the middle row?
  - What is a clear class?
  - How can you create a top menubar which will hover in from the top when you scroll down?
+
+Other links:
+
+ - [MDN - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+ - [MDN - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+ - [w3schools - HTML](https://www.w3schools.com/html/default.asp)
+ - [w3schools - CSS](https://www.w3schools.com/css/default.asp)
+
 
 ## JS Basics
 
@@ -51,6 +66,11 @@ By finishing this part, you should be able to answer the following questions:
  - What is a closure?
  - What is a factory method?
 
+Other links:
+
+ - [MDN - JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ - [w3schools - JS](https://www.w3schools.com/js/default.asp)
+ 
 
 ## Prototypes, Inheritance and the Misterious 'this' Keyword
 
@@ -77,10 +97,7 @@ If you follow the links in the article, you will be able to learn a lot about Gi
 
 ## HTML5 & CSS3
 
- - flex, flexbox
- - HTML5 APIs
-
- http://www.hongkiat.com/blog/building-html5-css-webpages/
+If you are already familiar with the basics, you should check out a [tutorial](http://www.hongkiat.com/blog/building-html5-css-webpages/) which focuses on the modern but stable things.
 
 
 ## Javascript & the DOM
@@ -90,14 +107,14 @@ If you follow the links in the article, you will be able to learn a lot about Gi
 
 ## Linux
 
-If you don't want to suffer as a developer, you definitely should use Linux. One of the biggest reasons is that it has a great package manager and a good default terminal, so you can easily run scrips which will help your day-to-day life. By googling for linux tutorial, this came up at the first place: [http://www.ee.surrey.ac.uk/Teaching/Unix/](http://www.ee.surrey.ac.uk/Teaching/Unix/) It seems okay, so go for it! (I would start with tutorial 1.)
+If you don't want to suffer as a developer, you definitely should use Linux. One of the biggest reasons is that it has a great package manager and a good default terminal, so you can easily run scrips which will help your day-to-day life. It is not very easy to find a good linux tutorial, but this seems to be okay: [http://ryanstutorials.net/linuxtutorial/](http://ryanstutorials.net/linuxtutorial/)
 
 
 ## Tooling & Task Automation
 
  - grunt, gulp, etc
 
- - HTML Email Development Tools http://blog.edmdesigner.com/tag/html-email-development-tools/0
+ - [HTML Email Development Tools](http://blog.edmdesigner.com/tag/html-email-development-tools/)
 
 
 
@@ -125,7 +142,7 @@ The second step is to get familiar with a framework. The most famous one - which
 
 ## Email HTML
 
-	- Email HTML http://blog.edmdesigner.com/tag/modern-html-email-tutorial/
+If you are interested in how email HTML differs from traditional web-based HTML, check out our [Modern Email HTML Tutorial](http://blog.edmdesigner.com/tag/modern-html-email-tutorial/).
 
 ## Other Javascript
 

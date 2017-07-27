@@ -7,7 +7,7 @@ JSFighters is a place where you improve yourself by helping others with their op
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-JSFighters is a place where you mentor others by giving them challanging quests and valuable feedback in your open source projects.
+JSFighters is a place where you mentor others by giving them challenging quests and valuable feedback in your open source projects.
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 ---
