@@ -11,7 +11,7 @@ email: gyula.nemeth@edmdesigner.com
 description: > # this means to ignore newlines until "baseurl:"
   JSFighters is a place where you improve yourself by helping others with their open source projects.
   /
-  JSFighters is a place where you mentor others by giving them challanging quests in your open source projects.
+  JSFighters is a place where you mentor others by giving them challenging quests in your open source projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jsfighters.edmdesigner.com" # the base hostname & protocol for your site
 github_username:  edmdesigner

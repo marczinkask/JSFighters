@@ -70,17 +70,33 @@ Other links:
 
  - [MDN - JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
  - [w3schools - JS](https://www.w3schools.com/js/default.asp)
- 
 
-## Prototypes, Inheritance and the Misterious 'this' Keyword
+## Javascript & the DOM - the Basics
 
-There are NO classes in Javascript. One of the biggest common mistakes is that coders coming from other languages try to use JS as a classical object oriented language. This is a prototype based object oriented language, not a classical one.
+If you know learn how the following functions work, then you will gain a good understanding of the basics of the DOM:
 
-Actually I came to the conclusion that you don't even need to use the *this* and the *new* keyword in Javascript. It's a decision that I don't use some of the features in this language, BUT you need to know the fundamentals! If you know them you can decide wether you use something or not. That is why I am going to include some good articles about prototypes and prototype based inheritance a little bit later. (//TODO)
+ - createElement [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) [w3schools](https://www.w3schools.com/jsref/met_document_createelement.asp)
+ - createTextNode [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode) [w3schools](https://www.w3schools.com/jsref/met_document_createtextnode.asp)
+ - appendChild [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) [w3schools](https://www.w3schools.com/Jsref/met_node_appendchild.asp)
+ - addEventListener [MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) [w3schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
-Also, I am going to get you a great article about the *this* keyword and related things. (bind, apply & call) (//TODO)
+When people apply to us for a job, I usually ask them to create a ToDo List app in vanilla.js in ES5. It shows how well they understand the basics of Javascript. I suggest you to do the same. The HTML you start with has to be the following:
 
- 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+//Write your todo list here, don't touch the markup!
+</script>
+</body>
+</html>
+```
+
+The only rule is that you must not touch the markup! By using the four functions mentioned earlier you have to be able to solve this task. It has to work on IE8 as well, so you must use ES5. (To be honest it's not because of IE8... I usually ask people to use ES5, because then I can see if they know what function scoping and closures are. (var vs. let)) 
 
 
 ## Git
@@ -95,19 +111,60 @@ If you follow the links in the article, you will be able to learn a lot about Gi
  - the basic branching models / workflows
 
 
-## HTML5 & CSS3
-
-If you are already familiar with the basics, you should check out a [tutorial](http://www.hongkiat.com/blog/building-html5-css-webpages/) which focuses on the modern but stable things.
-
-
-## Javascript & the DOM
-
-//TODO
-
-
 ## Linux
 
 If you don't want to suffer as a developer, you definitely should use Linux. One of the biggest reasons is that it has a great package manager and a good default terminal, so you can easily run scrips which will help your day-to-day life. It is not very easy to find a good linux tutorial, but this seems to be okay: [http://ryanstutorials.net/linuxtutorial/](http://ryanstutorials.net/linuxtutorial/)
+
+Our DevOps supermage told me that I have to include this [book](http://linuxcommand.org/tlcl.php). It contains the important basics.
+
+Although you don't have to be a linux superstar, it can save you a lot of time. Go for it!
+
+
+## Prototypes, Inheritance and the Misterious 'this' Keyword
+
+There are NO classes in Javascript. One of the biggest common mistakes is that coders coming from other languages try to use JS as a classical object oriented language. This is a prototype based object oriented language, not a classical one.
+
+Actually I came to the conclusion that you don't even need to use the *this* and the *new* keyword in Javascript. It's a decision that I don't use some of the features in this language, BUT you need to know the fundamentals! If you know them you can decide wether you use something or not. That is why I am going to include some good articles about prototypes and prototype based inheritance a little bit later. (//TODO)
+
+Also, I am going to get you a great article about the *this* keyword and related things. (bind, apply & call) (//TODO)
+
+
+## Node.js
+
+If you use node.js you can use javascript on the server side. It's great, because you can use the very same language that you use on the frontend which also means that you can use some of your code on the frontend and on the backend as well. 
+
+The ultimate source for learning node is [nodeschool.io](https://nodeschool.io/). Besides node, there are other tutorials to explore.
+
+The probably most importand web application framework for node.js is [expressjs](https://expressjs.com/). You can write APIs and also whole websites.
+
+When you write a webserver in node, you usually use [MongoDB](https://www.mongodb.com/) as your database. [Mongoosejs](http://mongoosejs.com/) is an [ODM](https://en.wikipedia.org/wiki/Object-relational_mapping) for MongoDB on Node.
+
+
+By finishing this part, you should be able to create a simple website with Mongoose and ExpressJS. After you created your website, you should check out what a [REST REST](http://www.restapitutorial.com/) is.
+
+If you want to create RESTful APIs, you definitely should check out [superserverjs](https://github.com/EDMdesigner/superserverjs).
+
+
+## Templating Languages & Blogs
+
+Using templating languages is a great way to inject dynamic data to your HTML templates. You can do it on the server side and on the client side as well. If you have ckecked out some Node.js + express.js tutorials, you are probably familiar with some of the following templating languages:
+
+ - [EJS](http://www.embeddedjs.com/)
+ - [Handlebars](http://handlebarsjs.com/)
+ - [Liquid](https://shopify.github.io/liquid/)
+
+If you are not familiar with Node.js and Express.js, you can still benefit from the use of templating languages. Many blog engines and static site generators use them.
+
+For example the liquid templating language is used by [Jekyll](https://jekyllrb.com/), which is a blog aware static site generator. The coolest thing in it is that you can host your jekyll base website for free on [Github pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/).
+
+Handlebars is the default templating language of the new, hip, Node.js base blog engine: [Ghost](https://ghost.org/).
+
+We use both jekyll and Ghost, and we use EJS with Express.js & Node.js. We also use it in our build processes. (For example we need to use different resources [eg. css files] in our development, staging and production environments.)
+
+
+## HTML5 & CSS3
+
+If you are already familiar with the basics, you should check out a [tutorial](http://www.hongkiat.com/blog/building-html5-css-webpages/) which focuses on the modern but stable things.
 
 
 ## Tooling & Task Automation
@@ -126,15 +183,6 @@ The second step is to get familiar with a framework. The most famous one - which
 
 	- Sass, Less
 
-
-## Templating Languages & Blogs
-
-	- ejs, hbs, liquid, etc...
-
-	- Jekyll
-	- Ghost
-
-## Node.js
 
 ## Knockout.js
 
