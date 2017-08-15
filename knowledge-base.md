@@ -99,6 +99,26 @@ When people apply to us for a job, I usually ask them to create a ToDo List app 
 The only rule is that you must not touch the markup! By using the four functions mentioned earlier you have to be able to solve this task. It has to work on IE8 as well, so you must use ES5. (To be honest it's not because of IE8... I usually ask people to use ES5, because then I can see if they know what function scoping and closures are. (var vs. let)) 
 
 
+## Prototypes, Inheritance and the Misterious 'this' Keyword
+
+There are NO classes in Javascript. One of the biggest common mistakes is that coders coming from other languages try to use JS as a classical object oriented language. This is a prototype based object oriented language, not a classical one.
+
+Actually I came to the conclusion that you don't even need to use the *this* and the *new* keyword in Javascript. It's a decision that I don't use some of the features in this language, BUT you need to know the fundamentals! If you know them you can decide wether you use something or not. If you understand the following figure, then you probably understand prototypes in Javascript.
+
+![Prototypes in Javascript](./assets/prototypes-in-javascript.png)
+
+I think this is the best figure about JS prototypes ever. If you are not familiar with prototypes please read [their article](http://mollypages.org/tutorials/js.mp) which highlights the most important parts. You can also read about [the prototype chain](http://mollypages.org/tutorials/jsscope.mp) and the misterious [this](http://mollypages.org/tutorials/jsthis.mp) pointer. (They compare it with Java's this in the article. - I think it's extremely useful.) 
+
+
+After you are familiar with the *this* keyword, you definitely should play around with the following functions:
+
+ - [apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+ - [call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+ - [bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+
+You can modify *this* with these functions. They will refer to another object!
+
+
 ## Git
 
 Git is a widely used versioning system. I wrote a blogpost about a branching model previously that contains lots of useful links to learning resources.
@@ -118,15 +138,6 @@ If you don't want to suffer as a developer, you definitely should use Linux. One
 Our DevOps supermage told me that I have to include this [book](http://linuxcommand.org/tlcl.php). It contains the important basics.
 
 Although you don't have to be a linux superstar, it can save you a lot of time. Go for it!
-
-
-## Prototypes, Inheritance and the Misterious 'this' Keyword
-
-There are NO classes in Javascript. One of the biggest common mistakes is that coders coming from other languages try to use JS as a classical object oriented language. This is a prototype based object oriented language, not a classical one.
-
-Actually I came to the conclusion that you don't even need to use the *this* and the *new* keyword in Javascript. It's a decision that I don't use some of the features in this language, BUT you need to know the fundamentals! If you know them you can decide wether you use something or not. That is why I am going to include some good articles about prototypes and prototype based inheritance a little bit later. (//TODO)
-
-Also, I am going to get you a great article about the *this* keyword and related things. (bind, apply & call) (//TODO)
 
 
 ## Node.js
