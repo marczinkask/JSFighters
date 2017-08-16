@@ -20,3 +20,5 @@ pages: about members
 
 # Build settings
 markdown: kramdown
+
+future: false
