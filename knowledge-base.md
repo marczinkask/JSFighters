@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Knowledge Base
+permalink: knowledge-base/
 ---
 
 
