@@ -3,6 +3,7 @@ layout: post
 title:  "Tool / Game in VanillaJS for FUN"
 date:   2017-08-17 12:00:00 +0200
 categories: quest personal
+published: false
 ---
 
 It's a good practice to create a small tool or game, using only Javascript and DOM manipulation. You can even start it with a bare html file.
