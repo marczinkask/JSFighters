@@ -3,6 +3,7 @@ layout: post
 title:  "Chamaileon Logo Enhancements"
 date:   2017-08-19 12:00:00 +0200
 categories: quest open-source
+published: false
 ---
 
 https://github.com/EDMdesigner/chamaileon-logo
