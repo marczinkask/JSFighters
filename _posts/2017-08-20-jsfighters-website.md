@@ -6,24 +6,17 @@ categories: quest open-source
 published: false
 ---
 
-https://github.com/EDMdesigner/chamaileon-logo
+Okay, we have a very simple webpage where we can publish the new quests, members can show their job done, but it's not sexy YET. Your newest mission is to create a fancy website out of this! Don't forget to use our brand new logo which should be done very soon. (Previous quest.) When you start this quest, please think about the parts of the page in this order:
 
-## JSFighters Webpage
-
- - main layout
+ - main layout (header, content, footer)
+ - quest listing
  - quest page
  - members page
-
- /knowledge-base/#the-basics-of-html--css
- /knowledge-base/#templating-languages--blogs
 
 Needed knowledge:
 
  - [HTML & CSS Basics][html-css]
- - [JS Basics][js-basics]
- - [DOM Basics][dom-basics]
- - extra: search for SVG
-
+ - [Jekyll][templating-langs]
 
 [html-css]: /knowledge-base/#the-basics-of-html--css
 [templating-langs]: /knowledge-base/#templating-languages--blogs

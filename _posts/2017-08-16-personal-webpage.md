@@ -5,7 +5,7 @@ date:   2017-08-16 12:00:00 +0200
 categories: quest personal
 ---
 
-First of all, you definitely should create a personal website which you host on Github Pages. JSFighters' website also works in the very same way. You can put anything there, but I suggest you to create a professional page which shows the world how great you are. ;)
+First of all, you definitely should create a personal website which you host on Github Pages. JSFighters' website also works in the very same way. You can put anything there, but I suggest you to create a professional page which shows the world how great you are. ;) You can also point your own domain name to the freely hosted ghpages site!
 
 Needed knowledge:
 

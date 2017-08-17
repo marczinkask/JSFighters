@@ -1,20 +1,14 @@
 ---
 layout: post
-title:  "Chamaileon Logo Enhancements"
-date:   2017-08-19 12:00:00 +0200
+title:  "Kickass Logo for JSFighters"
+date:   2017-08-10 12:00:00 +0200
 categories: quest open-source
 published: false
 ---
 
-https://github.com/EDMdesigner/chamaileon-logo
+Similarly to the [Chamaileon Logo Quest](/quest/open-source/2017/08/18/chamaileon-logo.html) you can create a kickass logo for JSFighters! Definitely go for SVG with some interaction and some animation.
 
-## Kickass JSFighters Logo
-
- - kickass logo (eg. animated svg? ;))
- /knowledge-base/#js-basics
- /knowledge-base/#javascript--the-dom---the-basics
-
- + SVG
+When you are done with the kickass logo, create a demo page on ghpages! The /doc folder will be great for that.
 
 
 Needed knowledge:
