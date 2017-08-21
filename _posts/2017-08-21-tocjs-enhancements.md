@@ -3,7 +3,6 @@ layout: post
 title:  "Chamaileon Logo Enhancements"
 date:   2017-08-21 12:00:00 +0200
 categories: quest open-source
-published: false
 ---
 
 There is a tiny, tiny repository called [tocjs](https://github.com/EDMdesigner/tocjs). You can create table of contents based on the h1...h6 elements in the dom. It also checks if the structure of the heading elements is correct. For example h3 should come after a h2, but not a h1. You can see it in action on our [blog.](https://blog.edmdesigner.com/the-basics-of-html-and-css-part-two/)

@@ -3,7 +3,6 @@ layout: post
 title:  "Chamaileon Logo Enhancements"
 date:   2017-08-18 12:00:00 +0200
 categories: quest open-source
-published: false
 ---
 
 Our upcoming product has a pretty cool animated [svg logo](https://github.com/EDMdesigner/chamaileon-logo). There are two main
