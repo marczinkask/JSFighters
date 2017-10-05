@@ -106,7 +106,7 @@ There are NO classes in Javascript. One of the biggest common mistakes is that c
 
 Actually I came to the conclusion that you don't even need to use the *this* and the *new* keyword in Javascript. It's a decision that I don't use some of the features in this language, BUT you need to know the fundamentals! If you know them you can decide wether you use something or not. If you understand the following figure, then you probably understand prototypes in Javascript.
 
-![Prototypes in Javascript](./assets/prototypes-in-javascript.png)
+![Prototypes in Javascript](../assets/prototypes-in-javascript.png)
 
 I think this is the best figure about JS prototypes ever. If you are not familiar with prototypes please read [their article](http://mollypages.org/tutorials/js.mp) which highlights the most important parts. You can also read about [the prototype chain](http://mollypages.org/tutorials/jsscope.mp) and the misterious [this](http://mollypages.org/tutorials/jsthis.mp) pointer. (They compare it with Java's this in the article. - I think it's extremely useful.) 
 

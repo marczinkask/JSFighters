@@ -14,15 +14,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
+  margin: 0;
+  padding: 0;
+  background: #151515 url("../assets/images/bkg.png") 0 0;
+  color: #eaeaea;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 
@@ -70,6 +68,7 @@ ul, ol {
 }
 
 li {
+    list-style-image:url('../assets/images/bullet.png');
     > ul,
     > ol {
          margin-bottom: 0;
@@ -91,7 +90,8 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
     text-decoration: none;
 
     &:visited {
@@ -99,7 +99,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        color: #63c0f5;
         text-decoration: underline;
     }
 }
@@ -156,6 +156,13 @@ pre {
  * Wrapper
  */
 .wrapper {
+    font-weight: normal;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #b5e853;
+    letter-spacing: -0.03em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+                 0 0 5px rgba(181, 232, 83, 0.1),
+                 0 0 10px rgba(181, 232, 83, 0.1);
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
